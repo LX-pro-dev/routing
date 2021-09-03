@@ -1,0 +1,9 @@
+<div class="container" id="user">
+   <!-- a routerLink="['/users', user.id]">Profil</a> -->
+   <h2>la liste des utilisateurs</h2>
+   <app-user *ngFor="let user of users" [user]="user" id="mar"></app-user>
+
+  <router-outlet>
+    
+  </router-outlet>
+</div>
